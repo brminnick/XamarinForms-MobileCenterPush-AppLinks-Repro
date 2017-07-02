@@ -1,5 +1,5 @@
 # XamarinForms-MobileCenterPush-AppLinks-Repro
-A sample Xamarin.Forms app that reproduces System.TypeLoadException when a File -> New Xamarin.Forms app is created and Xamarin.Forms AppLinks + Mobile Center Push Nuget Packages are added to the project.
+This runtime crash is happening because Xamarin.Forms App Links has a dependency on Xamarin.GooglePlayServices.Basement v29.0.0.1, but Mobile Center Push has a dependancy on Xamarin.GooglePlayServices.Basement v42.1021.1.
 
 # Steps To Reproduce
  1. Download source code from this repro
