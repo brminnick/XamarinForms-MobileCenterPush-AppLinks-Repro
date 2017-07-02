@@ -7,7 +7,7 @@ This runtime crash is happening because Xamarin.Forms App Links has a dependency
  3. Build/Deploy the Xamarin.Android project to an Android Device/Simulator
  4. The Error will occur at Runtime when the app launches
 
-# Error 
+# Runtime Crash
 >Could not load type of field 'Xamarin.Forms.Platform.Android.AppLinks.AndroidAppLinks:_client' (0) due to: Could not resolve type with token 01000013 (from typeref, class/assembly Android.Gms.Common.Apis.GoogleApiClient, Xamarin.GooglePlayServices.Basement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:Xamarin.GooglePlayServices.Basement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:Android.Gms.Common.Apis.GoogleApiClient member:<none>
 
 # Bug Tracking
