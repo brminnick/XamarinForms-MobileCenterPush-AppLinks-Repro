@@ -10,10 +10,10 @@ A sample Xamarin.Forms app that reproduces System.TypeLoadException when a File 
 Version 7.0.1 (build 24)
 Installation UUID: 6e5142b4-e8be-4d1c-b75e-4744b0d8c3de
 Runtime:
-	Mono 5.0.1.1 (2017-02/5077205) (64-bit)
-	GTK+ 2.24.23 (Raleigh theme)
+ Mono 5.0.1.1 (2017-02/5077205) (64-bit)
+ GTK+ 2.24.23 (Raleigh theme)
 
-	Package version: 500010001
+ Package version: 500010001
 
 === NuGet ===
 
