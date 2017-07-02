@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 
 using Android.App;
 using Android.Content;
@@ -21,6 +21,7 @@ namespace FormsPushAppLinks.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+            global::Xamarin.Forms.Platform.Android.AppLinks.AndroidAppLinks.Init(this);
 
             LoadApplication(new App());
         }
