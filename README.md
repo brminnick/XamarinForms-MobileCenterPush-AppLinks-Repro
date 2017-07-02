@@ -1,5 +1,5 @@
 # XamarinForms-MobileCenterPush-AppLinks-Repro
-This runtime crash is happening because Xamarin.Forms App Links has a dependency on Xamarin.GooglePlayServices.Basement v29.0.0.1, but Mobile Center Push has a dependancy on Xamarin.GooglePlayServices.Basement v42.1021.1.
+A runtime crash occurs when the Mobile Center Push SDK and the Xamarin.Forms App Links SDK are added to a Xamrain.Forms project. This is happening because Xamarin.Forms App Links has a dependency on Xamarin.GooglePlayServices.Basement v29.0.0.1, but Mobile Center Push has a dependancy on Xamarin.GooglePlayServices.Basement v42.1021.1.
 
 # Steps To Reproduce
  1. Download source code from this repro
